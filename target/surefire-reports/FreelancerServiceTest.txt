@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: FreelancerServiceTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.06 s <<< FAILURE! - in FreelancerServiceTest
+testCalculate  Time elapsed: 0.05 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <3> but was: <11>
+	at FreelancerServiceTest.testCalculate(FreelancerServiceTest.java:13)
+
