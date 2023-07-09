@@ -1,4 +1,5 @@
 package ru.netology.services;
+
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 //import ru.netology.services.FreelancerService;
@@ -15,6 +16,7 @@ public class FreelancerServiceTest {
 
         Assertions.assertEquals(expected, actual);
     }
+
     @Test
     public void testCalculate2() {
         FreelancerService service = new FreelancerService();

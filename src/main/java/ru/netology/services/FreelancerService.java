@@ -5,8 +5,7 @@ public class FreelancerService {
         int money = 0;
         int count = 0;
 
-        for (int month = 1; month < 11; month++) {
-
+        for (int i = 0; i < 12; i++) {
 
             if (money >= threshold) {
                 // отдыхает
@@ -16,9 +15,9 @@ public class FreelancerService {
 
             } else {
                 // работает
+                money = money + income;
+                money = money - expenses;
             }
-            money = money + income;
-            money = money - expenses;
 
         }
         return count;
